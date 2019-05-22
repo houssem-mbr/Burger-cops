@@ -1,0 +1,106 @@
+body 
+{
+    background: url(../images/bg.png);
+    background-size: cover;
+    
+}
+.site
+{
+    font-family: 'Holtwood One SC', sans-serif;
+}
+.text-logo
+{
+    font-family: 'Holtwood One SC', sans-serif;
+    color: #0094FFFF;
+    text-shadow: 2px 2px white;
+    font-size: 50px;
+    padding: 40px 0px;
+    text-align: center;
+}
+.text-logo .glyphicon 
+{
+    color: yellow;
+    text-shadow: 0px 0px #ffd301;
+}
+.nav
+{
+   margin-bottom: 40px;
+}
+.thumbnail img
+{
+    background: #05B7F9;
+}
+.price
+{
+    background: #FFD800;
+    box-shadow: 0 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px rgba(0,0,0,0.2);
+    color: #fff;
+    text-shadow: 2px 2px #333;
+    position: absolute;
+    right: 6px;
+    top: 20px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+.price:before 
+{
+    border: 4px solid transparent;
+    border-bottom: 4px solid #4a934a;
+    border-left: 4px solid #4a934a;
+    content: "";
+    position: absolute;
+    right: 1px;
+    top: -8px;
+}
+.caption > h4
+{
+    color: #0094FF;
+    font-size: 18px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover
+{
+    background: #17A4E7;
+}
+.nav>li>a:focus, .nav>li>a:hover 
+{
+    color:#17A4E7;
+    background-color: #FFF;
+}
+.nav>li>a
+{
+    color: #eee;
+    font-size: 18px;
+    text-shadow: 2px 2px #333;
+}
+.btn-order
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0094FF;
+    text-decoration: none;
+    text-shadow: 2px 2px #333;
+}
+.btn-order:hover, .btn-order:focus
+{
+    color: #fff;
+    background-color: #FFD800;
+}
+
+/*  ADMIN */
+
+.admin
+{
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
+.help-inline
+{
+    color: red;
+}
+
